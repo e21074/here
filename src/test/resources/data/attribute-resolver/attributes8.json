@@ -1,0 +1,18 @@
+{
+  "Name": {
+    "value_from": "userData/stringField",
+    "type": "STRING"
+  },
+  "Money": {
+    "value_from": "userData/accounts/[*]/numberField",
+    "type": "INTEGER"
+  },
+  "Info": {
+    "value_from": "userData/accounts/[*]/details/someInfo",
+    "type": "STRING"
+  },
+  "Accounts": {
+    "value_from": "userData/accounts",
+    "type": "ARRAY"
+  }
+}

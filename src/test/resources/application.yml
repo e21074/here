@@ -1,0 +1,5 @@
+report:
+  config:
+    doc-generation:
+      host: localhost
+      context-path: /

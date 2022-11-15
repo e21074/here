@@ -1,0 +1,60 @@
+{
+  "report": {
+    "report_sys_name": "testReportArrayAttributes",
+    "description": null,
+    "report_group": "mortgage",
+    "file_label": "file"
+  },
+  "attributes": {
+    "Guarantee_Sex": {
+      "value_from": "guarantees/[*]/guaranteeSex",
+      "type": "STRING",
+      "is_required": false,
+      "default_value": null,
+      "title": "Пол поручителя/супруга",
+      "description": null,
+      "regexp_validation_pattern": null,
+      "operation_name": null
+    },
+    "Guarantee_Birth_Date": {
+      "value_from": "guarantees/[*]/guaranteeBirthDate",
+      "type": "STRING",
+      "is_required": false,
+      "default_value": null,
+      "title": "Дата рождения поручителя/супруга/залогодателя",
+      "description": null,
+      "regexp_validation_pattern": null,
+      "operation_name": "dateWords"
+    },
+    "Guarantee_FIO": {
+      "value_from": "guarantees/[*]/guaranteeFIO",
+      "type": "STRING",
+      "is_required": false,
+      "default_value": null,
+      "title": "ФИО поручителя/супруга/залогодателя в Именительном падеже",
+      "description": null,
+      "regexp_validation_pattern": null,
+      "operation_name": null
+    },
+    "Guarantees_List": {
+      "value_from": "guarantees",
+      "type": "ARRAY",
+      "is_required": false,
+      "default_value": null,
+      "title": "Список поручителей/залогодателей",
+      "description": null,
+      "regexp_validation_pattern": null,
+      "operation_name": null
+    },
+    "First_Guarantee_FIO": {
+      "value_from": "guarantees/[1]/guaranteeFIO",
+      "type": "STRING",
+      "is_required": false,
+      "default_value": null,
+      "title": "ФИО поручителя/супруга/залогодателя в Именительном падеже",
+      "description": null,
+      "regexp_validation_pattern": null,
+      "operation_name": null
+    }
+  }
+}

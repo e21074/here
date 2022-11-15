@@ -1,0 +1,20 @@
+{
+  "Guarantees_List": [
+    {
+      "Guarantee_Sex": "MALE",
+      "Guarantee_Birth_Date": "«01» января 1951",
+      "Guarantee_FIO": "Full name 1"
+    },
+    {
+      "Guarantee_Sex": "FEMALE",
+      "Guarantee_Birth_Date": "«31» декабря 1931",
+      "Guarantee_FIO": "Full name 2"
+    },
+    {
+      "Guarantee_Sex": "MALE",
+      "Guarantee_Birth_Date": "«29» ноября 1951",
+      "Guarantee_FIO": "Full name 3"
+    }
+  ],
+  "First_Guarantee_FIO": "Full name 1"
+}

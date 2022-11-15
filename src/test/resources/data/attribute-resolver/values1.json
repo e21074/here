@@ -1,0 +1,19 @@
+{
+  "guarantees": [
+    {
+      "guaranteeSex": "MALE",
+      "guaranteeBirthDate": "01.01.1951",
+      "guaranteeFIO": "Full name 1"
+    },
+    {
+      "guaranteeSex": "FEMALE",
+      "guaranteeBirthDate": "31.12.1931",
+      "guaranteeFIO": "Full name 2"
+    },
+    {
+      "guaranteeSex": "MALE",
+      "guaranteeBirthDate": "29.11.1951",
+      "guaranteeFIO": "Full name 3"
+    }
+  ]
+}

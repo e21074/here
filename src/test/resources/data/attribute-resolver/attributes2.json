@@ -1,0 +1,22 @@
+{
+  "Guarantee_Birth_Date": {
+    "value_from": "guarantee/guaranteeBirthDate",
+    "type": "STRING",
+    "is_required": false,
+    "default_value": null,
+    "title": "Дата рождения поручителя/супруга/залогодателя",
+    "description": null,
+    "regexp_validation_pattern": null,
+    "operation_name": "dateWords"
+  },
+  "Guarantee_FIO": {
+    "value_from": "guarantee/guaranteeFIO",
+    "type": "STRING",
+    "is_required": false,
+    "default_value": null,
+    "title": "ФИО поручителя/супруга/залогодателя в Именительном падеже",
+    "description": null,
+    "regexp_validation_pattern": null,
+    "operation_name": null
+  }
+}

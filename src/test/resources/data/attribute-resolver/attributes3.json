@@ -1,0 +1,72 @@
+{
+  "Guarantee_Birth_Date": {
+    "value_from": "guarantees/[*]/guaranteeBirthDate",
+    "type": "STRING",
+    "is_required": false,
+    "default_value": null,
+    "title": "Дата рождения поручителя/супруга/залогодателя",
+    "description": null,
+    "regexp_validation_pattern": null,
+    "operation_name": "dateWords"
+  },
+  "Guarantee_FIO": {
+    "value_from": "guarantees/[*]/guaranteeFIO",
+    "type": "STRING",
+    "is_required": false,
+    "default_value": null,
+    "title": "ФИО поручителя/супруга/залогодателя в Именительном падеже",
+    "description": null,
+    "regexp_validation_pattern": null,
+    "operation_name": null
+  },
+  "Guarantees_List": {
+    "value_from": "guarantees",
+    "type": "ARRAY",
+    "is_required": false,
+    "default_value": null,
+    "title": "Список поручителей/залогодателей",
+    "description": null,
+    "regexp_validation_pattern": null,
+    "operation_name": null
+  },
+  "First_Guarantee_FIO": {
+    "value_from": "guarantees/[1]/guaranteeFIO",
+    "type": "STRING",
+    "is_required": false,
+    "default_value": null,
+    "title": "ФИО поручителя/супруга/залогодателя в Именительном падеже",
+    "description": null,
+    "regexp_validation_pattern": null,
+    "operation_name": null
+  },
+  "Money1": {
+    "value_from": "guarantees/[1]/guaranteeMoney",
+    "type": "NUMBER",
+    "is_required": false,
+    "default_value": null,
+    "title": "ФИО поручителя/супруга/залогодателя в Именительном падеже",
+    "description": null,
+    "regexp_validation_pattern": null,
+    "operation_name": null
+  },
+  "Money2": {
+    "value_from": "guarantees/[2]/guaranteeMoney",
+    "type": "INTEGER",
+    "is_required": false,
+    "default_value": null,
+    "title": "ФИО поручителя/супруга/залогодателя в Именительном падеже",
+    "description": null,
+    "regexp_validation_pattern": null,
+    "operation_name": null
+  },
+  "Money3": {
+    "value_from": "guarantees/[3]/guaranteeMoney",
+    "type": "NUMBER",
+    "is_required": false,
+    "default_value": null,
+    "title": "ФИО поручителя/супруга/залогодателя в Именительном падеже",
+    "description": null,
+    "regexp_validation_pattern": null,
+    "operation_name": null
+  }
+}

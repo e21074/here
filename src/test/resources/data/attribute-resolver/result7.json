@@ -1,0 +1,13 @@
+{
+  "Name": "Full name 1",
+  "Accounts": [
+    {
+      "Money": 100500,
+      "Info": "Nothing"
+    },
+    {
+      "Money": 10000,
+      "Info": "Something"
+    }
+  ]
+}

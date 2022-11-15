@@ -1,0 +1,26 @@
+{
+  "Name": {
+    "value_from": "userData/[2]/stringField",
+    "type": "STRING"
+  },
+  "Money": {
+    "value_from": "userData/[2]/accounts/[*]/numberField",
+    "type": "INTEGER"
+  },
+  "Info": {
+    "value_from": "userData/[2]/accounts/[*]/details/someInfo",
+    "type": "STRING"
+  },
+  "Deep": {
+    "value_from": "userData/[2]/accounts/[*]/details/aLotOfDetails/[1]/deepInside",
+    "type": "STRING"
+  },
+  "AnotherDeep": {
+    "value_from": "userData/[2]/accounts/[*]/details/aLotOfDetails/[1]/anotherDeepInside",
+    "type": "STRING"
+  },
+  "Accounts": {
+    "value_from": "userData/[2]/accounts",
+    "type": "ARRAY"
+  }
+}

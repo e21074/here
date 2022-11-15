@@ -1,0 +1,20 @@
+{
+  "Guarantees_List": [
+    {
+      "Guarantee_Birth_Date": "01.01.1951",
+      "Guarantee_FIO": "Full name 1"
+    },
+    {
+      "Guarantee_Birth_Date": "31.12.1931",
+      "Guarantee_FIO": "Full name 2"
+    },
+    {
+      "Guarantee_Birth_Date": "29.11.1951",
+      "Guarantee_FIO": "Full name 3"
+    }
+  ],
+  "First_Guarantee_FIO": "Full name 1",
+  "Money1": 100500.0,
+  "Money2": 10000,
+  "Money3": 9999.99
+}

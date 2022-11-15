@@ -1,0 +1,17 @@
+{
+  "Name": "User2",
+  "Accounts": [
+    {
+      "Money": 10555,
+      "Info": "Nothing for User2",
+      "Deep": "First for Second",
+      "AnotherDeep": "anotherFirst for Second"
+    },
+    {
+      "Money": 777,
+      "Info": "Something for User2",
+      "Deep": "First22",
+      "AnotherDeep": "anotherFirst22"
+    }
+  ]
+}

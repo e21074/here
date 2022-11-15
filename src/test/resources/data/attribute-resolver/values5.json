@@ -1,0 +1,12 @@
+{
+  "stringField": "Full name 1",
+  "account": {
+    "integerField": 100500,
+    "numberField": 100500,
+    "numberField2": 100400.37,
+    "details": {
+      "someInfo": "Nothing"
+    }
+  },
+  "booleanField": true
+}

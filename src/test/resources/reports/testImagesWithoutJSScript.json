@@ -1,0 +1,9 @@
+{
+  "report": {
+    "report_sys_name": "testImagesWithoutJSScript",
+    "description": null,
+    "report_group": "mortgage",
+    "file_label": "Кредитный договор"
+  },
+  "attributes": {}
+}

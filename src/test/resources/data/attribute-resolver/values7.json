@@ -1,0 +1,17 @@
+{
+  "stringField": "Full name 1",
+  "accounts": [
+    {
+      "numberField": 100500,
+      "details": {
+        "someInfo": "Nothing"
+      }
+    },
+    {
+      "numberField": 10000,
+      "details": {
+        "someInfo": "Something"
+      }
+    }
+  ]
+}

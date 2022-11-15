@@ -1,0 +1,10 @@
+{
+  "Name": {
+    "value_from": "stringField",
+    "type": "STRING"
+  },
+  "Info": {
+    "value_from": "accounts/[2]/details/someInfo",
+    "type": "STRING"
+  }
+}

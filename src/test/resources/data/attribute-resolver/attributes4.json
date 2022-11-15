@@ -1,0 +1,28 @@
+{
+  "Name": {
+    "value_from": "stringField",
+    "type": "STRING",
+    "is_required": false,
+    "default_value": null,
+    "title": "ФИО поручителя/супруга/залогодателя в Именительном падеже",
+    "description": null,
+    "regexp_validation_pattern": null,
+    "operation_name": null
+  },
+  "Money1": {
+    "value_from": "integerField",
+    "type": "INTEGER"
+  },
+  "IsItTrue": {
+    "value_from": "booleanField",
+    "type": "BOOLEAN"
+  },
+  "Money2": {
+    "value_from": "numberField",
+    "type": "NUMBER"
+  },
+  "Money3": {
+    "value_from": "numberField2",
+    "type": "NUMBER"
+  }
+}

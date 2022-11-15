@@ -1,0 +1,40 @@
+{
+  "report": {
+    "report_sys_name": "testReportConditionalFormatting",
+    "description": null,
+    "report_group": "mortgage",
+    "file_label": "file"
+  },
+  "attributes": {
+    "creditTerm": {
+      "value_from": "creditTerm",
+      "type": "STRING",
+      "is_required": false,
+      "default_value": null,
+      "title": "Срок кредита в месяцах",
+      "description": null,
+      "regexp_validation_pattern": null,
+      "operation_name": "monthWords"
+    },
+    "penalDamagesPercents": {
+      "value_from": "penalDamagesPercents",
+      "type": "NUMBER",
+      "is_required": false,
+      "default_value": null,
+      "title": "Размер пени за просрочку процентов",
+      "description": null,
+      "regexp_validation_pattern": null,
+      "operation_name": "interestWords"
+    },
+    "totalInterest": {
+      "value_from": "totalInterest",
+      "type": "NUMBER",
+      "is_required": false,
+      "default_value": null,
+      "title": "Процентная ставка на дату заключения кредитного договора",
+      "description": null,
+      "regexp_validation_pattern": null,
+      "operation_name": "interestWords"
+    }
+  }
+}

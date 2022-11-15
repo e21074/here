@@ -1,0 +1,78 @@
+{
+  "userData": [
+    {
+      "stringField": "User1",
+      "accounts": [
+        {
+          "numberField": 100500,
+          "details": {
+            "someInfo": "Nothing for User1",
+            "aLotOfDetails": [
+              {
+                "deepInside": "First111",
+                "anotherDeepInside": "anotherFirst111"
+              },
+              {
+                "deepInside": "Second111",
+                "anotherDeepInside": "anotherSecond111"
+              }
+            ]
+          }
+        },
+        {
+          "numberField": 10000,
+          "details": {
+            "someInfo": "Something for User1",
+            "aLotOfDetails": [
+              {
+                "deepInside": "FirstSmth1",
+                "anotherDeepInside": "anotherFirstSmth2"
+              },
+              {
+                "deepInside": "SecondSmth1",
+                "anotherDeepInside": "anotherSecondSmth1"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "stringField": "User2",
+      "accounts": [
+        {
+          "numberField": 10555,
+          "details": {
+            "someInfo": "Nothing for User2",
+            "aLotOfDetails": [
+              {
+                "deepInside": "First for Second",
+                "anotherDeepInside": "anotherFirst for Second"
+              },
+              {
+                "deepInside": "Second for Second",
+                "anotherDeepInside": "anotherSecond for Second"
+              }
+            ]
+          }
+        },
+        {
+          "numberField": 777,
+          "details": {
+            "someInfo": "Something for User2",
+            "aLotOfDetails": [
+              {
+                "deepInside": "First22",
+                "anotherDeepInside": "anotherFirst22"
+              },
+              {
+                "deepInside": "Second22",
+                "anotherDeepInside": "anotherSecond22"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

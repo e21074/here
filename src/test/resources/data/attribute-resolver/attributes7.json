@@ -1,0 +1,18 @@
+{
+  "Name": {
+    "value_from": "stringField",
+    "type": "STRING"
+  },
+  "Money": {
+    "value_from": "accounts/[*]/numberField",
+    "type": "INTEGER"
+  },
+  "Info": {
+    "value_from": "accounts/[*]/details/someInfo",
+    "type": "STRING"
+  },
+  "Accounts": {
+    "value_from": "accounts",
+    "type": "ARRAY"
+  }
+}

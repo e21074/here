@@ -1,0 +1,13 @@
+{
+  "technicalInfo": {
+    "actualDate": "29.05.2020",
+    "templateName": "testImagesWithoutJSScript"
+  },
+  "bookmarks": {
+    "bookmark": "value"
+  },
+  "images": {
+    "image0": "/image0unijson",
+    "image1": "/image1unijson"
+  }
+}

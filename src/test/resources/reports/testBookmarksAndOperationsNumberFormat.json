@@ -1,0 +1,50 @@
+{
+  "report": {
+    "report_sys_name": "testBookmarksAndOperationsNumberFormat",
+    "description": null,
+    "report_group": "mortgage",
+    "file_label": "file"
+  },
+  "attributes": {
+    "bookmarkDecimal0": {
+      "value_from": "bookmarkDecimal0",
+      "type": "INTEGER",
+      "is_required": false,
+      "default_value": null,
+      "title": "Срок кредита в месяцах",
+      "description": null,
+      "regexp_validation_pattern": null,
+      "operation_name": null
+    },
+    "bookmarkDecimal1": {
+      "value_from": "bookmarkDecimal1",
+      "type": "NUMBER",
+      "is_required": false,
+      "default_value": null,
+      "title": "Размер пени за просрочку процентов",
+      "description": null,
+      "regexp_validation_pattern": null,
+      "operation_name": null
+    },
+    "bookmarkDecimal2": {
+      "value_from": "bookmarkDecimal2",
+      "type": "NUMBER",
+      "is_required": false,
+      "default_value": null,
+      "title": "Размер пени за просрочку процентов",
+      "description": null,
+      "regexp_validation_pattern": null,
+      "operation_name": null
+    },
+    "bookmarkDecimal3": {
+      "value_from": "bookmarkDecimal3",
+      "type": "NUMBER",
+      "is_required": false,
+      "default_value": null,
+      "title": "Размер пени за просрочку процентов",
+      "description": null,
+      "regexp_validation_pattern": null,
+      "operation_name": null
+    }
+  }
+}
